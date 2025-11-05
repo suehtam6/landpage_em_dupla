@@ -35,17 +35,17 @@ header{
 .setas{
     display: flex;
     font-size: 30px;
-    width: 100%;
+    width: 70%;
     justify-content: end;
-   height: 90%;
    margin-left: 10px;
+   gap: 50px;
 
  
 }
 .preto{
     
     background-color: black;
-    width: 150px;
+    width: 100px;
     position: relative;
     right: 85px;
     z-index: -1;
@@ -60,10 +60,11 @@ header{
 }
 
 .menu{
-   justify-content: end;
-   width: 40%;
-    display: flex;
     
+   width: 90%;
+    display: flex;
+    position: absolute;
+    justify-content: end;
 }
 
 .menu img{
@@ -141,6 +142,30 @@ background-color: black;
    
 }
 
+.quadrado{
+   display: flex;
+   width: 200px;
+   height: 50px;
+   background-color: black;
+   position: relative;
+   top: 820px;
+}
+
+.quadrado h1{
+   color: white;
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+}
+
+.quadrado img{
+    width: 60px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 footer{
    height: 20%;
    display: flex;
@@ -150,7 +175,7 @@ footer{
 .texto{
     height: 40%;
     width: 30%;
-    background-color: black;
+    position: relative;
     display: flex;
-    top: 100px;
+    top: 150px;
 }
