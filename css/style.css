@@ -148,7 +148,8 @@ background-color: black;
    height: 50px;
    background-color: black;
    position: relative;
-   top: 820px;
+   top: 830px;
+   right: 62%;
 }
 
 .quadrado h1{
@@ -164,6 +165,8 @@ background-color: black;
     display: flex;
     align-items: center;
     position: relative;
+    top: 20px;
+    left: 10px;
 }
 
 footer{
@@ -178,4 +181,5 @@ footer{
     position: relative;
     display: flex;
     top: 150px;
+    
 }
