@@ -1,185 +1,193 @@
-
-body{
+body {
    height: 100vh;
    width: 100vw;
-    font-family: "crossorigin", sans-serif;
-    
+   font-family: "crossorigin", sans-serif;
 
 }
-.retangulo{
-    position: absolute;
-    right: 0;
-    height: 100vh;
-    z-index: -999;
-    
-    
+
+.retangulo {
+   position: absolute;
+   right: 0;
+   height: 100vh;
+   z-index: -999;
+
+
 }
 
-header{
+header {
    height: 10%;
    width: 100%;
    display: flex;
    padding-left: 80px;
    padding-top: 80px;
-    
-    
-   
+
+
+
 }
 
-.nike img{
-    display: flex;
-    width: 120px;
-    height: 48px;
+.nike img {
+   display: flex;
+   width: 120px;
+   height: 48px;
 }
 
-.setas{
-    display: flex;
-    font-size: 30px;
-    width: 70%;
-    justify-content: end;
-   margin-left: 10px;
+.setas {
+   display: flex;
+   font-size: 30px;
+   width: 70%;
+   justify-content: end;
    gap: 50px;
-
- 
-}
-.preto{
-    
-    background-color: black;
-    width: 100px;
-    position: relative;
-    right: 85px;
-    z-index: -1;
-    height: 55px;
-}
-.setas img{
-
-    width: 76px;    
-    height:36px;
-    margin-left: 10px;
-    margin-top: 10px;
 }
 
-.menu{
-    
+.setas h1{
+   position: relative;
+   right: 180px;
+}
+
+.preto {
+
+   background-color: black;
+   width: 100px;
+   position: relative;
+   right: 245px;
+   z-index: -1;
+   height: 55px;
+}
+
+.setas img {
+   position: relative;
+   right: 157px;
+   width: 76px;
+   height: 36px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.menu {
+
    width: 90%;
-    display: flex;
-    position: absolute;
-    justify-content: end;
+   display: flex;
+   position: absolute;
+   justify-content: end;
 }
 
-.menu img{
-    height: 50px;
-    width: 70px;
-    
+.menu img {
+   height: 50px;
+   width: 70px;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-main{
-  height: 80%;
-  width: 100%;
-  display: flex;
+main {
+   height: 80%;
+   width: 100%;
+   display: flex;
 }
 
-.bolinhas{
+.sapato {
+   position: absolute;
+   left: 820px;
+   top: 200px;
+}
+
+.sapato img {
+   width: 1100px;
+   height: 700px;
+}
+
+.bolinhas {
    display: flex;
    gap: 20px;
    flex-direction: column;
    justify-content: space-around;
    padding: 62px;
 }
-#d{
-background-color: black;
+
+#d {
+   background-color: black;
 }
 
-.borda{
+.borda {
    width: 20px;
    height: 20px;
    border-radius: 50%;
    border: 3px solid black;
 }
+
 /* texto copetition */
 
-.competition{
+.competition {
    height: 40%;
    width: 30%;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-
+   gap: 15px;
 }
 
 
-.competition h1{
+.competition h1 {
    height: 45px;
-   font-size: 41px;
+   font-size: 43px;
    width: 272px;
    margin-left: 400px;
 }
-.competition h2{
-   font-size: 41px;
+
+.competition h2 {
+   font-size: 43px;
 }
 
-.competition div{
+.competition div {
    height: 4px;
-   top: 20px;
+   top: 40px;
    right: 40px;
    position: relative;
    border-radius: 5px;
    width: 190px;
    background-color: black;
-   
+
 }
 
-.quadrado{
+.quadrado {
    display: flex;
-   width: 200px;
+   width: 230px;
    height: 50px;
    background-color: black;
    position: relative;
-   top: 830px;
-   right: 62%;
+   justify-content: center;
+   top: 695px;
+   right: 1090px;
 }
 
-.quadrado h1{
+.quadrado h1 {
    color: white;
    display: flex;
    align-items: center;
    font-size: 20px;
 }
 
-.quadrado img{
-    width: 60px;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 20px;
-    left: 10px;
+.quadrado img {
+   width: 60px;
+   height: 10px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   top: 20px;
+   left: 10px;
 }
 
-footer{
-   height: 20%;
+footer {
+   height: 10%;
    display: flex;
    padding-left: 70px;
 }
 
-.texto{
-    height: 40%;
-    width: 30%;
-    position: relative;
-    display: flex;
-    top: 150px;
-    
+.texto {
+   height: 40%;
+   width: 30%;
+   position: relative;
+   display: flex;
+   font-size: 20px;
+   top: 136px;
+   left: 100px;
 }
